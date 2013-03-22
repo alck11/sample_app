@@ -6,7 +6,7 @@ describe "Static pages" do
 
     it "should have the h1 'W Y associates'" do
       visit root_path
-      page.should have_selector('h1', :text => 'W Y associates')
+      page.should have_selector('h4', :text => 'W Y associates')
     end
 
     it "should have the base title" do
