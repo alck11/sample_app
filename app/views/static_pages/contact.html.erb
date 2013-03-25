@@ -1,2 +1,78 @@
-<h1>StaticPages#contact</h1>
-<p>Find me in app/views/static_pages/contact.html.erb</p>
+  <!-- Main Page Content and Sidebar -->
+ 
+  <div class="row">
+ 
+    <!-- Contact Details -->
+    <div class="large-9 columns">
+ 
+      <h3>Get in Touch!</h3>
+      <p>We'd love to hear from you. We love getting email all day <em>all day</em>.</p>
+ 
+      <div class="section-container tabs" data-section>
+          <h5 class="title"><a href="#panel1">Contact Our Company</a></h5>
+          <div class="content" data-slug="panel1">
+            <form class ="custom">
+              <div class="row collapse">
+                <div class="large-4 columns">
+                  <label class="inline">Your Name</label>
+                </div>
+                <div class="large-8 columns">
+                  <input type="text" id="yourName" placeholder="Jane Smith">
+                </div>
+              </div>
+							<div class="row collapse">
+                <div class="large-4 columns">
+                  <label class="inline">Company Name</label>
+                </div>
+                <div class="large-8 columns">
+                  <input type="text" id="companyName" placeholder="ABC Company">
+                </div>
+              </div>
+              <div class="row collapse">
+                <div class="large-12 columns">
+						      <label for="customDropdown1">Organizationa type</label>
+						      <select id="customDropdown1" class="medium">
+						        <option>Individual</option>
+						        <option>Partnership</option>
+						        <option>LLC</option>
+						        <option>LLP</option>
+						        <option>S-Corp</option>
+						        <option>C-Corp</option>
+						        <option>Pass-through entity</option>
+						      </select>
+						    </div>
+              </div>              
+              <div class="row collapse">
+                <div class="large-4 columns">
+                  <label class="inline"> Your Email</label>
+                </div>
+                <div class="large-8 columns">
+                  <input type="text" id="yourEmail" placeholder="jane@smithco.com">
+                </div>
+              </div>
+              <label>Any other additional information to help us better service you?</label>
+              <textarea rows="8"></textarea>
+              <button type="submit" class="radius button">Submit</button>
+            </form>
+          </div>
+      </div>
+    </div> 
+    <!-- End Contact Details -->
+    <!-- Sidebar -->
+    <div class="large-3 columns">
+      <h5>Map</h5>
+      <!-- Clicking this placeholder fires the mapModal Reveal modal -->
+      <p>
+        <a href="" data-reveal-id="mapModal"><img src="http://placehold.it/400x280"></a><br />
+        <a href="" data-reveal-id="mapModal">View Map</a>
+      </p>
+      <p>
+        123 Awesome St.<br />
+        City, ST 12345
+      </p>
+    </div>
+    <!-- End Sidebar -->
+  </div>
+ 
+  <!-- End Main Content and Sidebar -->
+ 
