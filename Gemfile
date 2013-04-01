@@ -25,6 +25,8 @@ end
 
 gem 'jquery-rails'
 
+gem 'newrelic_rpm'
+
 group :test do
   gem 'capybara', '1.1.2'
 end
