@@ -7,14 +7,18 @@ $aqua: #00b0ad;
 $aqualight: #76cccc;
 $grey1: #cdcdcd;
 $grey2: #f6f6f6;
+$grey3: #edf3f3;
 $blue1: #8499b2;
+
+//spacing
+$spacing: 1em;
 
 h1 {
 	color: $aqua;
 }
 
 ul {
-	margin-left: 2em;
+	margin-left: $spacing*2;
 }
 
 button, .button {
@@ -36,20 +40,21 @@ body {
 
 #content {
 	background-color: $grey2;
-	padding-top: 1em;
+	padding-top: $spacing;
 }
 
 #contactbox {
-	padding-top: 1.5em;
+	padding-top: $spacing*1.5;
 	background-color: $grey1;
 
 }
 
 #slider {
-	padding-top: 1.5em;
+	padding-top: $spacing*1.5;
 	background-color: $aqualight;	
 }
 
 #footer {
-	padding-top: 1em;
+	padding-top: $spacing;
+	background-color: $grey3;
 }
