@@ -1,16 +1,16 @@
 <!-- Footer -->
 
-<footer class="row">
+<footer class="row" id="footer">
   <div class="large-12 columns">
-    <hr />
+    <!-- <hr /> -->
     <div class="row">
       <div class="large-6 columns">
         <p>W&amp;Y Associates LLC</p>
       </div>
       <div class="large-6 columns">
         <ul class="inline-list right">
-          <li><a href="#">Privacy Policy</a></li>
-          <li><a href="#">Disclaimer</a></li>
+          <li><a href="#" data-reveal-id="privacyModal">Privacy Policy</a></li>
+          <li><a href="#" data-reveal-id="disclaimerModal">Disclaimer</a></li>
           <li><%= link_to "About", about_path %></li>
           <li><%= link_to "Contact us", contact_path %></li>
         </ul>
@@ -18,3 +18,18 @@
     </div>
   </div> 
 </footer>
+
+<!-- popup box -->
+<div id="privacyModal" class="reveal-modal">
+  <h2>Privacy</h2>
+  <p class="lead">Your lead sentence.</p>
+  <p>text goes here</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
+
+<div id="disclaimerModal" class="reveal-modal">
+  <h2>Disclaimer</h2>
+  <p class="lead">Your lead sentence.</p>
+  <p>text goes here</p>
+  <a class="close-reveal-modal">&#215;</a>
+</div>
