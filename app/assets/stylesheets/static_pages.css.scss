@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+@import "foundation/foundation-global", "foundation/components/global", "foundation/components/buttons", "foundation/components/button-groups";
+
 //define some color
 $aqua: #00b0ad;
 $aqualight: #76cccc;
@@ -24,6 +26,10 @@ ul {
 button, .button {
     background-color: $aqua;
     border-color: $aqua;
+}
+#nav-button{
+	width: 6.5em;
+	padding: 0.625em 1em;
 }
 
 a {
