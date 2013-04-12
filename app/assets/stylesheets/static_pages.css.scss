@@ -11,6 +11,7 @@ $grey1: #cdcdcd;
 $grey2: #f6f6f6;
 $grey3: #edf3f3;
 $blue1: #8499b2;
+$line: #c0c0c0;
 
 //spacing
 $spacing: 1em;
@@ -44,6 +45,72 @@ body {
 	font-family: 'Lato', sans-serif;
 }
 
+.line {
+    border-bottom: 1px solid $line;
+    display: inline-block;
+    margin: 0 10px 7px;
+    position: relative;
+    width: 200px;
+}
+
+.portfolio {
+    text-align: center;
+    vertical-align: baseline;
+}
+
+.points {
+	text-align: left;
+}
+
+p.t-name {
+    color: #707070;
+}
+
+p.t-position {
+    color: #A5A5A5;
+    margin-bottom: 4px;
+}
+
+p.t-name, p.t-position {
+    font-size: 13px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.testimonials {
+	width: 400px;
+}
+
+.testimonials h5 {
+    border-bottom: 1px solid #D0D0D0;
+    color: #656565;
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+    text-align: left;
+    margin-bottom: 30px;
+}
+
+.testimonials p {
+    border-bottom: 1px dotted #DADADA;
+    color: #8C8C8C;
+    font-size: 14px;
+    margin: 0 0 10px;
+    padding-bottom: 10px;
+    text-align: left;
+}
+.team img {
+    border: 0 solid #F2F2F2;
+}
+img.scale-with-grid {
+    height: auto;
+    max-width: 100%;
+}
+
+.img-circle {
+    border-radius: 500px 500px 500px 500px;
+}
 #content {
 	background-color: $grey2;
 	padding-top: $spacing;
