@@ -125,8 +125,23 @@ img.scale-with-grid {
 }
 
 #slider {
-	padding-top: $spacing*1.5;
+	padding: $spacing*1.5;
 	background-color: $aqualight;	
+}
+
+.orbit-slide-number, .orbit-timer {
+    display: none;
+}
+
+.orbit-container .orbit-prev, .orbit-container .orbit-next {
+    background-color: $aqua;
+    height: 60px;
+    line-height: 50px;
+    margin-top: -25px;
+    position: absolute;
+    text-indent: -9999px !important;
+    top: 50%;
+    width: 50px;
 }
 
 #footer {
