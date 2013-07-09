@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-@import "foundation/foundation-global", "foundation/components/global", "foundation/components/buttons", "foundation/components/button-groups";
+@import "foundation/variable", "foundation/components/global", "foundation/components/buttons", "foundation/components/button-groups";
 
 //define some color
 $aqua: #00b0ad;
