@@ -13,19 +13,17 @@
   	<!-- Set the viewport width to device width for mobile -->
   	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  	<title><%= full_title(yield(:title)) %></title>
+  	<title><%= content_for?(:title) ? yield(:title) : "Untitled" %></title>
 
   	<%= stylesheet_link_tag    "application" %>
   	<%= javascript_include_tag "vendor/custom.modernizr" %>
     <%= csrf_meta_tags %>
-    <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css'>
-    <link href='http://fonts.googleapis.com/css?family=Lato' rel='stylesheet' type='text/css'>
   </head>
 
   <body>
-    <%= render 'layouts/header' %>
+
     <%= yield %>
-    <%= render 'layouts/footer' %>
+
     
     <%= javascript_include_tag "application" %>
   </body>
