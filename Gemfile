@@ -6,7 +6,7 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3'
+  gem 'sqlite3', '1.3.7'
   gem 'rspec-rails'
 end
 
@@ -19,7 +19,7 @@ group :assets do
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
 
-  gem 'uglifier', '>= 1.0.3'
+  gem 'uglifier', '2.1.1'
   gem 'zurb-foundation'
 end
 
@@ -32,7 +32,8 @@ group :test do
 end
 
 group :production do
-  gem 'pg'
+  gem 'pg', '0.15.1'
+  gem 'rails_12factor', '0.0.2'
 end
 
 gem 'simple_form'
