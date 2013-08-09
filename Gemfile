@@ -6,8 +6,8 @@ gem 'rails', '3.2.13'
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
 group :development, :test do
-  gem 'sqlite3', '1.3.7'
-  gem 'rspec-rails'
+  # gem 'sqlite3', '1.3.7'
+  # gem 'rspec-rails'
 end
 
 # Gems used only for assets and not required
@@ -36,7 +36,7 @@ group :production do
   gem 'rails_12factor', '0.0.2'
 end
 
-gem 'simple_form'
+# gem 'simple_form'
 # To use ActiveModel has_secure_password
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
