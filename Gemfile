@@ -4,7 +4,7 @@ gem 'rails', '4.0.0'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
-
+gem 'rails4_upgrade'
 group :development, :test do
   # gem 'sqlite3', '1.3.7'
   # gem 'rspec-rails'
@@ -20,7 +20,7 @@ group :assets do
   # gem 'therubyracer', :platforms => :ruby
 
   gem 'uglifier', '2.1.1'
-  gem 'zurb-foundation'
+  gem 'foundation-rails'
 end
 
 gem 'jquery-rails'
